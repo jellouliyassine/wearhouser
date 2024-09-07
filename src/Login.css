@@ -1,0 +1,30 @@
+.img_login_bc{
+    border: black solid 1px;
+    border-radius: 20px;
+    box-shadow:
+    0 0 7px 2px #fff;
+background-image: url("./bc.jpg");
+background-size:100% 100%;
+margin-top: auto;
+margin-bottom: auto;
+}
+.container img{
+ 
+    width: 100px;
+    margin: auto;
+    display: block;
+   
+    }
+.container{
+   
+}
+.bt{
+    color:white;
+    background-color:black;
+    border: #fff solid 2px;
+
+}
+.bt:hover{
+    color: black;
+    background-color: #fff;
+}

@@ -1,0 +1,57 @@
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    border: #ffffff solid;
+    background-color: #000000;
+    color: white;
+    display: block;
+  }
+  
+  
+  
+  .main {
+    border: #fff solid 2px;
+    margin-left: 15%; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    color: #00e1e9;
+    background-color: #000000;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .sidenav img{
+ border: #000000 solid 4px;
+    width: 100%;
+    margin: auto;
+    display: block;
+   
+    }
+.container{
+   
+}
+.bt{
+  background-color: #0430aa;
+  color: white;
+}
+.sidenav a:hover{
+    color: black;
+    background-color: #fff;
+}

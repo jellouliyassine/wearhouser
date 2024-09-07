@@ -1,0 +1,21 @@
+.circle {
+   
+
+    width: 200px;
+    height: 200px;
+    background-color: #232f9796; /* Change the background color as desired */
+    border-radius: 50%;
+
+    box-shadow:
+    0 0 7px 2px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Text color */
+    font-size: 18px;
+}
+
+.circle:hover{
+    box-shadow:
+    0 0 7px 10px #041dff;
+}

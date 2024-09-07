@@ -1,0 +1,43 @@
+
+.center_div{
+  text-align: center;
+}
+
+
+.img1{
+  left: -5px;
+  top: -5px;
+ 
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 100px 60px rgb(68, 0, 255), /* middle magenta */
+    0 0 140px 90px #0ff; /* outer cyan */
+}
+.miniimg{
+  
+
+
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+  0 0 7px 2px #fff;
+  position: fixed;
+}
+
+
+.testback{
+  height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+ background-image: url("./bc.jpg");
+}
